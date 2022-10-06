@@ -1,0 +1,26 @@
+<a class="card">
+    <div class="row h-25">
+        <div class="col">
+            <h5>
+                @Title
+            </h5>
+        </div>
+    </div>
+    <div class="row h-150">
+        <div class="col d-flex align-items-center justify-content-center">
+            <img src="@Image" height="150" width="100" />
+        </div>
+        <p>@Description</p>
+    </div>
+</a>
+
+@code{
+    [Parameter]
+    public string Id { get; set; }
+    [Parameter]
+    public string Image { get; set; }
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public string Description { get; set; }
+}

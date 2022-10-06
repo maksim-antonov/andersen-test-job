@@ -1,0 +1,17 @@
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\bin\Debug\net6.0\FilmsTestJob.Repository.deps.json
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\bin\Debug\net6.0\FilmsTestJob.Repository.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\bin\Debug\net6.0\FilmsTestJob.Repository.pdb
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\bin\Debug\net6.0\FilmsTestJob.Contracts.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\bin\Debug\net6.0\FilmTestJob.Entities.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\bin\Debug\net6.0\FilmsTestJob.Contracts.pdb
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\bin\Debug\net6.0\FilmTestJob.Entities.pdb
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\obj\Debug\net6.0\FilmsTestJob.Repository.csproj.AssemblyReference.cache
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\obj\Debug\net6.0\FilmsTestJob.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\obj\Debug\net6.0\FilmsTestJob.Repository.AssemblyInfoInputs.cache
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\obj\Debug\net6.0\FilmsTestJob.Repository.AssemblyInfo.cs
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\obj\Debug\net6.0\FilmsTestJob.Repository.csproj.CoreCompileInputs.cache
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\obj\Debug\net6.0\FilmsTestJob.Repository.csproj.CopyComplete
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\obj\Debug\net6.0\FilmsTestJob.Repository.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\obj\Debug\net6.0\refint\FilmsTestJob.Repository.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\obj\Debug\net6.0\FilmsTestJob.Repository.pdb
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Repository\obj\Debug\net6.0\ref\FilmsTestJob.Repository.dll

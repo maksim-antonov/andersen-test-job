@@ -1,0 +1,15 @@
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\bin\Debug\net6.0\FilmsTestJob.Contracts.deps.json
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\bin\Debug\net6.0\FilmsTestJob.Contracts.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\bin\Debug\net6.0\FilmsTestJob.Contracts.pdb
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\bin\Debug\net6.0\FilmTestJob.Entities.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\bin\Debug\net6.0\FilmTestJob.Entities.pdb
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\obj\Debug\net6.0\FilmsTestJob.Contracts.csproj.AssemblyReference.cache
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\obj\Debug\net6.0\FilmsTestJob.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\obj\Debug\net6.0\FilmsTestJob.Contracts.AssemblyInfoInputs.cache
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\obj\Debug\net6.0\FilmsTestJob.Contracts.AssemblyInfo.cs
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\obj\Debug\net6.0\FilmsTestJob.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\obj\Debug\net6.0\FilmsTestJob.Contracts.csproj.CopyComplete
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\obj\Debug\net6.0\FilmsTestJob.Contracts.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\obj\Debug\net6.0\refint\FilmsTestJob.Contracts.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\obj\Debug\net6.0\FilmsTestJob.Contracts.pdb
+C:\Users\onton\source\repos\sakhar\Andersen\FilmsTestJob.Contracts\obj\Debug\net6.0\ref\FilmsTestJob.Contracts.dll

@@ -1,0 +1,12 @@
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\bin\Debug\net6.0\FilmTestJob.Entities.deps.json
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\bin\Debug\net6.0\FilmTestJob.Entities.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\bin\Debug\net6.0\FilmTestJob.Entities.pdb
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\obj\Debug\net6.0\FilmTestJob.Entities.csproj.AssemblyReference.cache
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\obj\Debug\net6.0\FilmTestJob.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\obj\Debug\net6.0\FilmTestJob.Entities.AssemblyInfoInputs.cache
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\obj\Debug\net6.0\FilmTestJob.Entities.AssemblyInfo.cs
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\obj\Debug\net6.0\FilmTestJob.Entities.csproj.CoreCompileInputs.cache
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\obj\Debug\net6.0\FilmTestJob.Entities.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\obj\Debug\net6.0\refint\FilmTestJob.Entities.dll
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\obj\Debug\net6.0\FilmTestJob.Entities.pdb
+C:\Users\onton\source\repos\sakhar\Andersen\FilmTestJob.Entities\obj\Debug\net6.0\ref\FilmTestJob.Entities.dll

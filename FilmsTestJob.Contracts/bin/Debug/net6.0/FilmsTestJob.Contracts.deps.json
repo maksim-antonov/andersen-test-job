@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FilmsTestJob.Contracts/1.0.0": {
+        "dependencies": {
+          "FilmTestJob.Entities": "1.0.0"
+        },
+        "runtime": {
+          "FilmsTestJob.Contracts.dll": {}
+        }
+      },
+      "FilmTestJob.Entities/1.0.0": {
+        "runtime": {
+          "FilmTestJob.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FilmsTestJob.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FilmTestJob.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

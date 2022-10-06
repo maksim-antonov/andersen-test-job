@@ -1,0 +1,37 @@
+@page
+@using FilmsTestJob.Components
+@using FilmTestJob.Entities.Models
+@model ResultsModel
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<div id="results" class="col">
+    <div class="row d-flex justify-content-center">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+    <div class="row d-flex justify-content-center">
+        @if(Model.Films == null || Model.Films.Count == 0)
+        {
+            @if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+            {
+                <p>Title: @Model.QueryText returns a error:</p>
+                <p>@Model.ErrorMessage</p>
+            }
+            else {
+                <p>No results. Try again.</p>
+            }
+        } else {
+            @foreach(SearchResult film in Model.Films)
+            {
+                <component type="typeof(FilmCard)" 
+                    render-mode="ServerPrerendered"
+                    param-Id="@film.Id"
+                    param-Title="@film.Title"
+                    param-Image="@film.Image"
+                    param-Description="@film.Description"
+                    />
+            }
+        }
+    </div>
+</div>
