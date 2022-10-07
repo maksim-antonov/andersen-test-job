@@ -4,7 +4,7 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace FilmsTestJob.Services;
 
-public class SearchService
+public class SearchService : ISearchService
 {
     private readonly IRepositoryWrapper _repository;
     private readonly IMemoryCache _cache;

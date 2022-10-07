@@ -1,6 +1,8 @@
-using FilmsTestJob.Repository;
+using FilmsTestJob.Contracts;
 using FilmsTestJob.Services;
+using FilmTestJob.Entities.Models;
 using Microsoft.Extensions.Caching.Memory;
+using Moq;
 
 namespace Tests
 {
@@ -10,60 +12,47 @@ namespace Tests
         public async void TestMemoryCache()
         {
             // Arrange
-            var rWrapper = new RepositoryWrapper();
-            var cacheOptions = new MemoryCacheOptions();
-            var cache = new MemoryCache(cacheOptions);
-            var searchService = new SearchService(rWrapper, cache);
             var inputTitle = "lord";
-            
-            // Act
-            var resultFromFirstCall = await searchService.SearchAsync(inputTitle);
-            var resultFromSecondCall = await searchService.SearchAsync(inputTitle);
-            
-            // Assert
-            Assert.Same(resultFromFirstCall, resultFromSecondCall); // I think this test is not so clear, but Idk how to test it differently
-        }
+            var repositoryMock = new Mock<IRepositoryWrapper>();
 
-        [Fact]
-        public async void TestEmptyInput()
-        {
-            // Arrange
-            var rWrapper = new RepositoryWrapper();
+            var data = new SearchData
+            {
+                Expression = "",
+                ErrorMessage = "",
+                SearchType = "Movies",
+                Results = new List<SearchResult>
+                {
+                    new()
+                    {
+                        Id = Guid.NewGuid().ToString(),
+                        Description = "Apologize, Mr. Mario, beauty princess hides in other castle",
+                        Image = "",
+                        ResultType = "Title",
+                        Title = "Super Mario Bros."
+                    },
+                    new()
+                    {
+                        Id = Guid.NewGuid().ToString(),
+                        Description = "Wake up, Neo",
+                        Image = "",
+                        ResultType = "Title",
+                        Title = "Matrix"
+                    }
+                }
+            };
+
+            repositoryMock.Setup(m => m.Search.GetFilmsByTitleAsync(It.IsAny<string>())).ReturnsAsync(data);
+            
             var cacheOptions = new MemoryCacheOptions();
             var cache = new MemoryCache(cacheOptions);
-            var searchService = new SearchService(rWrapper, cache);
-            var inputTitle = "";
-            
-            // Act
-            var result = await searchService.SearchAsync(inputTitle);
-            
-            // Assert
-            
-            // Assert.True(!result.Results.Any());
-            // Assert.False(result.Results.Any());
-            Assert.Empty(result.Results);
-            Assert.False(string.IsNullOrWhiteSpace(result.ErrorMessage));
-        }
+            var searchService = new SearchService(repositoryMock.Object, cache);
 
-        [Fact]
-        public async void TestGoodInput()
-        {
-            // Arrange
-            var rWrapper = new RepositoryWrapper();
-            var cacheOptions = new MemoryCacheOptions();
-            var cache = new MemoryCache(cacheOptions);
-            var searchService = new SearchService(rWrapper, cache);
-            var inputTitle = "reload";
-            var searchType = "Movies";
-            
             // Act
-            var result = await searchService.SearchAsync(inputTitle);
+            await searchService.SearchAsync(inputTitle);
+            await searchService.SearchAsync(inputTitle);
             
             // Assert
-            Assert.True(string.IsNullOrWhiteSpace(result.ErrorMessage));
-            Assert.Contains(result.SearchType, searchType);
-            Assert.Contains(result.Expression, inputTitle);
-            Assert.NotEmpty(result.Results);
+            repositoryMock.Verify(x => x.Search.GetFilmsByTitleAsync(inputTitle), Times.Once());
         }
     }
 }
