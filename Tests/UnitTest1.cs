@@ -9,7 +9,7 @@ namespace Tests
     public class UnitTest1
     {
         [Fact]
-        public async void TestRequestToRepositoryCount()
+        public async void TestMemoryCache()
         {
             // Arrange
             var inputTitle = "lord";
